@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+
+body{
+	
+}
+
+p{
+	margin : 1.2em 0;
+	text-align: left;
+	 line-height: 2.0em;
+	
+}
+
+h2 {text-align: center;
+}
+h3 {
+	font-size: 1.3em;
+}
+.arrow_button{
+	padding: 1em 3em 0 3em;
+}
+.movie_left{
+
+
+}
+
+.movie-items{
+		    display: flex;
+}
+
+.movie_right {
+	flex-grow: 2;
+	margin-left: 2.0em;
+}
+
+figcaption{
+	font-size: 0.7em;
+	text-align: right;
+}
+
+
+
+@media only screen and (max-width: 600px){
+	body{
+		
+	}
+	
+.movie-items{
+		    display: block;
+    justify-content: center;
+}
+.movie_right {
+
+	margin: 2em 0;
+}
+	.movie_left{
+	/*
+  position: relative;
+  height: 100vh;
+		*/
+	}
+
+}
