@@ -5,6 +5,9 @@ body{
 	
 }
 
+
+
+
 p{
 	margin : 1.2em 0;
 	text-align: left;
@@ -17,6 +20,93 @@ h2 {text-align: center;
 h3 {
 	font-size: 1.3em;
 }
+
+.special_title {
+	font-size:1.6em;
+
+}
+
+.special_text {
+	margin-top: 2.2em;
+	font-size:1.1em;
+	line-height: 2.0em;
+}
+
+.special_memo {
+	font-size:0.9em;
+}
+
+.link_text {
+	border-bottom: dotted 2px #C90C0F;
+	font-weight: 500;
+}
+
+
+.section_movies {
+	margin-top: 2em;
+
+}
+
+.section_border {
+	border: 1px solid  #C90C0F;
+}
+
+.section_about {
+	border: 1px solid  #999;
+	padding: 5em;
+	margin-top: 3em;
+}
+
+.section_about_img{
+	width: 70%;
+	margin-bottom: 2em;
+}
+.section_about_link {
+    position: relative;
+    display: block;
+    min-width: 15%;
+    padding: 1em 0.6em;
+    text-align: center;
+    margin-left: auto;
+}
+
+
+.section_about_link:after {
+    position: absolute;
+    content: '\f35d';
+    font-size: 1.2em;
+    padding: 0.6em;
+    top: 0;
+    right: 0;
+    color: #999;
+    text-shadow: 0 0 4px rgba(0,0,0,0.4);
+}
+
+
+.movies_h2 {
+	padding-bottom:0;
+}
+
+.movies_h2_small {
+	font-size: 0.8em;
+}
+
+.movie_contents {
+	margin:2.2em 1.5em;
+}
+
+.play_buttons {
+
+}
+
+.multi_angle_box {
+	min-width: 15%;
+    padding: 1em 0.6em;
+    text-align: center;
+    background-color: #dadada; 
+	margin:2.2em 1.5em;
+}
+
 .arrow_button{
 	padding: 1em 3em 0 3em;
 }
